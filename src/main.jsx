@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+import SquareParentComp from './squareParentComp.jsx'
+import { SquareProvider } from './squareProvider.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+
+    <SquareProvider>
+      <SquareParentComp />
+    </SquareProvider>
   </React.StrictMode>,
 )
