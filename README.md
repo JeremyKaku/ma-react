@@ -1,6 +1,6 @@
 # React + Vite
 
-A little task for familiar with React.<br/>
+MA: React and JavaScript.<br/>
 4 boxes click and change the color.
 
 <div>
